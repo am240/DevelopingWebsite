@@ -29,7 +29,12 @@
             <input type="email" class="contact-form-text" placeholder="Your email">
             <input type="text" class="contact-form-text" placeholder="Your phone">
             <textarea class="contact-form-text" placeholder="Your message"></textarea>
-            [su_button url="#" onclick="alert('Thanks!');"]Button text[/su_button]
+            <input id="elem" type="button" value="Click me">
+<script>
+  elem.onclick = function() {
+    alert('Thank you');
+  };
+</script>
         </form>
     </div>   
 <footer>
@@ -42,10 +47,5 @@
       </div>
 </footer>
     
-<script>
-function myFunction() {
-  var submit = alert("Thanks");
- 
-}
 </script></body>
 </html>
