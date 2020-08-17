@@ -1,0 +1,140 @@
+* {
+    font-family: 'Lato', sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+  }
+
+  li {
+    float: right
+  }
+  
+  a {
+    display: inline-block;
+    padding: 8px;
+    color: white
+  }
+
+  h1 {
+    color: white;
+    font-size: 25px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+}
+
+
+footer a:hover i::before{
+  background-position: 0% 0%;
+}
+
+.contact-section{
+  background: url(bg.png) no-repeat center;
+  background-size: cover;
+  padding: 40px 0;
+}
+
+.contact-section h2{
+  text-align: center;
+  color: white;
+}
+
+.border{
+  width: 100px;
+  height: 10px;
+  background: lavender;
+  margin: 40px auto;
+}
+
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: rgb(236, 222, 236);
+  padding: 20px 40px;
+  outline: none;
+  color:bold black;
+  transition: 0.5s;
+}
+
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #e73c7e;
+}
+
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+}
+
+.contact-form-btn{
+  float: right;
+  border: 0;
+  background: rgb(236, 222, 236);
+  color: black;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.contact-form-btn:hover{
+  background: #e73c7e;
+}
+
+  #navigation{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  a:hover, a:active {
+    text-decoration: blueviolet;
+  }
+  
+
+  body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    /* position: relative; */
+    animation-name: examples;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    height: 100vh;
+  }
+  
+  
+  @keyframes examples{
+       0%{
+           background-position: 0 50%;
+       } 
+       25%{
+            background-position: 100% 50%;      
+       }
+       50%{
+            background-position: 0 50%;
+       }
+       100%{
+             background-position: 0 50%;      
+       } 
+  }
+  
+  
+  #topSection{
+          display:flex;
+      justify-content: flex-start;
+  }
+  
